@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">YalantisYalantisInternshipTask1</string>
+    <string name="title">Home organization</string>
+    <string name="created">Created</string>
+    <string name="registered">Registered</string>
+    <string name="due_date">Due date</string>
+    <string name="responsible">Responsible</string>
+    <string name="responsible_info">Дніпропетровський МВК</string>
+    <string name="status_task_text">in progress</string>
+    <string name="decree">DECREE № CE-1257218</string>
+    <string name="description">Open the hatch (near the billboard), turning the area on 18 and 19 trams at Prospect Mira with the Donetsk highway</string>
+
+    <array name="picture_urls">
+        <item>http://cs421717.vk.me/v421717191/64d6/QW0NU4gtvAo.jpg</item>
+        <item>http://cs412325.vk.me/v412325441/7e00/i5vPe5jkUVE.jpg</item>
+        <item>http://eskipaper.com/images/beautiful-pink-flowers-2.jpg</item>
+        <item>http://cs618423.vk.me/v618423676/b4e0/z85pFwWpttc.jpg</item>
+    </array>
+</resources>
