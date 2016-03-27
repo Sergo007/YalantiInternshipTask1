@@ -45,7 +45,7 @@ public class YalantisApp extends Application {
                 .tasksProcessingOrder(QueueProcessingType.FIFO)
                 .denyCacheImageMultipleSizesInMemory()
                 .memoryCacheSizePercentage(30)
-                .diskCacheSize(50 * 1024 * 1024)
+                .diskCacheSize(50 * 1024 * 1024) //[Comment] Magic numbers
                 .defaultDisplayImageOptions(optionBuilder.build())
                 .build();
         ImageLoader.getInstance().init(config);

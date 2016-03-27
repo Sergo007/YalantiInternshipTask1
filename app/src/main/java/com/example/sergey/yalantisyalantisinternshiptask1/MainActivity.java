@@ -42,6 +42,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+//[Comment] Wrong status bar color
+//[Comment] Images should have the same size
 public class MainActivity extends AppCompatActivity {
     @Bind(R.id.recycler_view_picture)
     RecyclerView recyclerView;
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                this.finish();
+                this.finish(); //[Comment] without this
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

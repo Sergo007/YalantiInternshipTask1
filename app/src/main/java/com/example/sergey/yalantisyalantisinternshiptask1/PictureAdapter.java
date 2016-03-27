@@ -38,7 +38,7 @@ import java.util.List;
 
 public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.ViewHolder> {
 
-    private List<String> imageUrls;
+    private List<String> imageUrls; //[Comemnt] Use google code style
 
     public PictureAdapter(List<String> imageUrls) {
         this.imageUrls = imageUrls;

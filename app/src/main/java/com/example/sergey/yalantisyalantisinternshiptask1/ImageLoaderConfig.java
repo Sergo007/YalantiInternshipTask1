@@ -36,7 +36,7 @@ public class ImageLoaderConfig {
             .showImageForEmptyUri(R.drawable.placeholder)
             .showImageOnFail(R.drawable.placeholder)
             .showImageOnLoading(R.drawable.placeholder)
-            .displayer(new FadeInBitmapDisplayer(300))
+            .displayer(new FadeInBitmapDisplayer(300)) //[Comment] Magic numbers
             .bitmapConfig(Bitmap.Config.RGB_565)
             .build();
 }

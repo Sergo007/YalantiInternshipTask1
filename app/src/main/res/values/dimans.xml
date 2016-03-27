@@ -20,3 +20,5 @@
     <!-- Item in Details activity RecyclerView -->
     <dimen name="poster_height">300dp</dimen>
 </resources>
+
+<!-- [Comment] Dimens not dimans -->
