@@ -32,6 +32,8 @@ import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 
 
 public class YalantisApp extends Application {
+    private final int AVAILABLE_MEMORY_PERCENT = 30;
+    private final int MAX_CACHE_SIZE = 50 * 1024 * 1024;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -44,8 +46,8 @@ public class YalantisApp extends Application {
                 .threadPriority(Thread.NORM_PRIORITY - 2)
                 .tasksProcessingOrder(QueueProcessingType.FIFO)
                 .denyCacheImageMultipleSizesInMemory()
-                .memoryCacheSizePercentage(30)
-                .diskCacheSize(50 * 1024 * 1024)
+                .memoryCacheSizePercentage(AVAILABLE_MEMORY_PERCENT)
+                .diskCacheSize(MAX_CACHE_SIZE)
                 .defaultDisplayImageOptions(optionBuilder.build())
                 .build();
         ImageLoader.getInstance().init(config);

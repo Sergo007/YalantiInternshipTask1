@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="height_item_linearlayout">50dp</dimen>
     <dimen name="vertical_interval">10dp</dimen>
     <dimen name="margin_number_task">10dp</dimen>
-    <dimen name="main_activity_recycler_height">155dp</dimen>
     <dimen name="top_bottom_padding_linearlayout_activity">20dp</dimen>
     <dimen name="left_right_padding_linearlayout_activity">15dp</dimen>
     <dimen name="top_bottom_padding_status_task_activity">7dp</dimen>
     <dimen name="left_right_padding_status_task_activity">15dp</dimen>
-    <dimen name="text_size">15dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <!-- List Item Dimensions -->
     <dimen name="margin_top_bottom_recycler_item">10dp</dimen>
     <dimen name="margin_right_recycler_item">20dp</dimen>
+    <!-- RecycerView dimensions -->
+    <dimen name="main_activity_recycler_height">155dp</dimen>
 </resources>

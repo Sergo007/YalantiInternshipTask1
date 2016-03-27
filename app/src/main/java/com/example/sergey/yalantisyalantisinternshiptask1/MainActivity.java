@@ -41,7 +41,9 @@ import java.util.Calendar;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
+//[Comment] Wrong status bar color
+// I used color for toolbar that was in design.
+// please. Could you describe that i did no true?
 public class MainActivity extends AppCompatActivity {
     @Bind(R.id.recycler_view_picture)
     RecyclerView recyclerView;
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                this.finish();
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

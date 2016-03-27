@@ -30,14 +30,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.nostra13.universalimageloader.core.ImageLoader;
-
 import java.util.List;
 
 
 public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.ViewHolder> {
 
+    /**
+     *  This is URLs all images, that i shell to show in RecyclerView
+     **/
     private List<String> imageUrls;
 
     public PictureAdapter(List<String> imageUrls) {

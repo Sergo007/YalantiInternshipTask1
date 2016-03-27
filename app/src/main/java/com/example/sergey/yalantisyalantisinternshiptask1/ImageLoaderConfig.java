@@ -24,19 +24,23 @@
 package com.example.sergey.yalantisyalantisinternshiptask1;
 
 import android.graphics.Bitmap;
+
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 
-/** This is options for image upload. */
+/**
+ * This is options for image upload.
+ */
 
 public class ImageLoaderConfig {
+    public static final int DURATION_MILLIS = 300;
     public static final DisplayImageOptions LOAD_ITEM = new DisplayImageOptions.Builder()
             .cacheOnDisk(true)
             .cacheInMemory(true)
             .showImageForEmptyUri(R.drawable.placeholder)
             .showImageOnFail(R.drawable.placeholder)
             .showImageOnLoading(R.drawable.placeholder)
-            .displayer(new FadeInBitmapDisplayer(300))
+            .displayer(new FadeInBitmapDisplayer(DURATION_MILLIS))
             .bitmapConfig(Bitmap.Config.RGB_565)
             .build();
 }

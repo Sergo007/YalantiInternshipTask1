@@ -5,7 +5,7 @@
 
     <ImageView
         android:id="@+id/picture"
-        android:scaleType="center"
+        android:scaleType="fitXY"
         android:layout_width="@dimen/main_activity_recycler_height"
         android:layout_height="@dimen/main_activity_recycler_height"
         android:layout_marginTop="@dimen/margin_top_bottom_recycler_item"
