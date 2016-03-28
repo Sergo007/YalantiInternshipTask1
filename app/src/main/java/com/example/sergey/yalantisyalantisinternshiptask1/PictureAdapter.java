@@ -39,10 +39,10 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.ViewHold
     /**
      *  This is URLs all images, that i shell to show in RecyclerView
      **/
-    private List<String> imageUrls;
+    private List<String> mImageUrls;
 
     public PictureAdapter(List<String> imageUrls) {
-        this.imageUrls = imageUrls;
+        this.mImageUrls = imageUrls;
     }
 
     @Override
@@ -53,12 +53,12 @@ public class PictureAdapter extends RecyclerView.Adapter<PictureAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        ImageLoader.getInstance().displayImage(Uri.parse(imageUrls.get(position)).toString(), holder.icon, ImageLoaderConfig.LOAD_ITEM, null);
+        ImageLoader.getInstance().displayImage(Uri.parse(mImageUrls.get(position)).toString(), holder.icon, ImageLoaderConfig.LOAD_ITEM, null);
     }
 
     @Override
     public int getItemCount() {
-        return imageUrls.size();
+        return mImageUrls.size();
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

@@ -33,7 +33,7 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
  */
 
 public class ImageLoaderConfig {
-    public static final int DURATION_MILLIS = 300;
+    private static final int DURATION_MILLIS = 300;
     public static final DisplayImageOptions LOAD_ITEM = new DisplayImageOptions.Builder()
             .cacheOnDisk(true)
             .cacheInMemory(true)

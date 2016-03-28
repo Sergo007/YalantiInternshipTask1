@@ -32,18 +32,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Calendar;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-//[Comment] Wrong status bar color
-// I used color for toolbar that was in design.
-// please. Could you describe that i did no true?
+
 public class MainActivity extends AppCompatActivity {
     @Bind(R.id.recycler_view_picture)
     RecyclerView recyclerView;
